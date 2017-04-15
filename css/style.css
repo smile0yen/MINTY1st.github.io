@@ -1,0 +1,244 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f3f3;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.img-back {
+    background: url('../img/head-background.jpg') no-repeat fixed left bottom;
+}
+
+.img-color {
+    background-color: rgba(99, 198, 195, 0.5)
+}
+
+.header {
+    padding: 100px 30px 80px;
+    height: 550px;
+    color: white;
+}
+
+.site-title-sub {
+    margin: 0 0 30px;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+}
+
+.site-title-sub::before,
+.site-title-sub::after {
+    content: '';
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    margin: 0 30px;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.site-title {
+    margin: 50px 0 40px;
+    font-size: 5rem;
+}
+
+.circle-bg-t {
+    background-color: #5fd3e8;
+    border-radius: 50%;
+    cursor: pointer;
+    display: table;
+    position: absolute;
+    top: 400px;
+    left: 35%;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.circle-bg-w {
+    background-color: #5fd3e8;
+    border-radius: 50%;
+    cursor: pointer;
+    display: table;
+    position: absolute;
+    top: 400px;
+    left: 65%;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.tension {
+    color: white;
+    display: table-cell;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.weather {
+    color: white;
+    display: table-cell;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.outer-icons-t {
+    top: 390px;
+    left: 35%;
+    position: absolute;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.outer-icons-w {
+    top: 390px;
+    left: 65%;
+    position: absolute;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.outer-icons-t a {
+    color: black;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.outer-icons-w a {
+    color: black;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.one {
+    background-color: #ced6e2;
+    left: -120px;
+    top: 20px;
+}
+
+.two {
+    background-color: #ced6e2;
+    left: -60px;
+    top: -80px;
+}
+
+.three {
+    background-color: #ced6e2;
+    left: 60px;
+    top: -80px;
+}
+
+.four {
+    background-color: #ced6e2;
+    left: 120px;
+    top: 20px;
+}
+
+.five {
+    background-color: #ced6e2;
+    left: -120px;
+    top: 20px;
+}
+
+.six {
+    background-color: #ced6e2;
+    left: -60px;
+    top: -80px;
+}
+
+.seven {
+    background-color: #ced6e2;
+    left: 60px;
+    top: -80px;
+}
+
+.eight {
+    background-color: #ced6e2;
+    left: 120px;
+    top: 20px;
+}
+
+.about {
+    padding: 80px 30px 30px 0;
+    background-color: #f5f3f3;
+    color: #333;
+}
+
+.heading {
+    position: relative;
+    display: inline-block;
+    margin: 30px 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+.heading::before,
+.heading::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #999;
+}
+
+.heading::before {
+    bottom: 5px;
+}
+
+.about-text {
+    margin: 30px 0;
+    line-height: 2.5;
+}
+
+.request {
+    padding: 80px 0 150px;
+}
