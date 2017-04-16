@@ -47,9 +47,94 @@
             <br> あなたの気分にあった楽曲を紹介していきます。
         </p>
     </section>
+
     <section class="request">
+
+    <!--ここから須藤がコードしました-->
+
         <h2 class="heading">REQUEST FORM</h2>
+
+
+        <div style="padding: 100px; margin-bottom: 100px; margin-left: 325px; margin-right: 325px;  border: 10px double #333333; background-color: #009999; color: #ffffff;">
+
+          <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+
+            <center><p class="request-input-name">お名前(Your Name)</p></center>
+              <input class="request-input-name" name="name" type="text" placeholder="例: 山田　太郎（Taro　Yamada）">
+
+            <center><p class="request-input-name">メールアドレス(e-mail address)</p></center>
+            <input class="request-input-name" name="name" type="text" placeholder="例: example@example.com">
+          
+          </div>
+
+          <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;">
+
+          <p class="request-input-feeling">感情(Feeling)</p>
+
+          <label class="request-input-feeling clearfix">
+            <input class="request-input" name="application" type="radio" value="喜び">
+            <span>喜(Happy)</span>
+            </label>
+          <label class="request-input-feeling clearfix">
+            <input class="request-input" name="application" type="radio" value="怒り">
+            <span>怒(Anger)</span>
+          </label>
+          <label class="request-input-feeling clearfix">
+            <input class="request-input" name="application" type="radio" value="悲しみ">
+            <span>哀(Sorrow)</span>
+          </label>
+          <label class="request-input-feeling clearfix">
+            <input class="request-input" name="application" type="radio" value="楽しさ">
+            <span>楽(Fun)</span>
+          </label>
+
+          <p class="request-input-weather">天気(Weather)</p>
+
+          <label class="request-input-weather clearfix">
+              <input class="request-input-weather" name="application" type="radio" value="晴れ" checked="true">
+            <span>晴れ(Fine)</span>
+          </label>
+          <label class="request-input-weather clearfix">
+            <input class="request-input" name="application" type="radio" value="くもり">
+            <span>くもり(Clowdy)</span>
+          </label>
+          <label class="request-input-weather clearfix">
+            <input class="request-input" name="application" type="radio" value="雨">
+            <span>雨(Rainy)</span>
+          </label>
+          <label class="request-input-weather clearfix">
+            <input class="request-input" name="application" type="radio" value="ゲリラ">
+            <span>嵐(Stormy)</span>
+          </label>
+
+          <center>
+          <p class="request-input-name">リクエスト曲名(Request Song)</p>
+          </center>
+            <input class="request-input-name" name="name" type="text" placeholder="例: Happy Birthday to You">
+
+          <center>
+          <p class="request-input-name">アーティスト名(Artists)</p>
+          </center>
+          
+          <center><input class="request-input-name" nane="name" type="text" placeholder="例: Michael Jackson">
+          </center>
+
+          <p class="request-input-episode">リクエスト理由(The reason)</p>
+          <center>
+            <textarea class="request-episode" type="text" value="" placeholder="リクエスト曲に関するエピソードなど"></textarea>
+        　　</center>
+
+          <input style="color:ivory;background-color: blue;font-size:20;width:200px;height:30px" type="button" value="リクエストする(Request)" onclick="alert('誤字、脱字はありませんか？本当に送信しますか？');">
+
+          </div>
+
+
+        
+
+    　　  </div>
+
     </section>
+
     <section class="footer">
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
