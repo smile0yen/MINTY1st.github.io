@@ -10,9 +10,9 @@ $(document).ready(function () {
             $('.outer-icons-t').animate({
                 opacity: 1
             }, 1000);
-
-
             open = true;
+
+
         } else {
             $(this).animate({
                 height: '-=10px',

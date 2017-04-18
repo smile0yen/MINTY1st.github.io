@@ -247,3 +247,60 @@ body {
 .request {
     padding: 80px 0 150px;
 }
+
+
+/*---スマートフォン用css---*/
+
+@media(max-width:768px) {
+    .site-title-sub::before,
+    .site-title-sub::after {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .site-title-sub {
+        font-size: 1.8rem;
+    }
+    .site-title {
+        margin-top: 35px;
+        font-size: 4.9rem;
+    }
+    .site-click {
+        display: none;
+    }
+    .circle-bg-t {
+        left: 50%;
+        top: 450px;
+    }
+    .circle-bg-w {
+        left: 50%;
+        top: 580px;
+    }
+    .outer-icons-t {
+        left: 50%;
+        top: 440px;
+    }
+    .outer-icons-w {
+        left: 50%;
+        top: 570px;
+    }
+    .six {
+        top: 100px;
+    }
+    .seven {
+        top: 100px;
+    }
+    .heading {
+        font-size: 2.5rem;
+        margin: auto;
+    }
+    body {
+        font-size: 1.3rem;
+    }
+    .about-text {
+        font-size: 1.3rem;
+    }
+    .request {
+        padding: 0 0 150px;
+    }
+}
